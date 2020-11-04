@@ -14,7 +14,7 @@ import '../../webview.dart';
 class OAuth implements IAuth {
   final authorizationEndpoint =
       Uri.parse('https://www.oauth.com/playground/auth-dialog.html');
-  final tokenEndpoint = Uri.parse('http://example.com/oauth2/token');
+  final tokenEndpoint = Uri.parse('https://authorization-server.com/token');
   final redirectUrl =
       Uri.parse("https://www.oauth.com/playground/authorization-code.html");
 
